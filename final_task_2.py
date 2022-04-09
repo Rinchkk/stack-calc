@@ -24,7 +24,7 @@ class Stack:
             print("Error: stack is empty")
 
 def main():
-    arr = list(map(str, input().split())) #Я не смогла нагуглить как считать в питоне элементы, записанные в одной строке, но имеющие разный тип данных
+    arr = list(map(str, input().split()))
     stack = Stack()
     CONST_STR = "+-*/"
     CONST_S1 = '+'
